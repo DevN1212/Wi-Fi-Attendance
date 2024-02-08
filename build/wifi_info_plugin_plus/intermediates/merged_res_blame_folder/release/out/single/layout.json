@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/custom_dialog.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/layout/notification_action.xml",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/layout/notification_action.xml"
+    }
+]

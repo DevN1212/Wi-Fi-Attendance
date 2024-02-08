@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.server_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:2:5-80
+11-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:2:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:3:5-79
+12-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:3:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:4:5-78
+13-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:5:5-66
+14-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:6:5-75
+15-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:6:22-73
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[:wifi_info_plugin_plus] D:\SIH\server_app\build\wifi_info_plugin_plus\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+16-->[:wifi_info_plugin_plus] D:\SIH\server_app\build\wifi_info_plugin_plus\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+17
+18    <application
+19        android:name="android.app.Application"
+19-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:9:9-42
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] C:\Users\nikun\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="Attendi-Fi" >
+22-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:8:9-35
+23        <activity
+23-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:11:9-36:20
+24            android:name="com.example.server_app.MainActivity"
+24-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:12:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:16:13-163
+26            android:exported="true"
+26-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:13:13-36
+27            android:hardwareAccelerated="true"
+27-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:17:13-47
+28            android:launchMode="singleTop"
+28-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:14:13-43
+29            android:theme="@style/LaunchTheme"
+29-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:15:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:18:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:23:13-26:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:24:15-70
+40                android:resource="@style/NormalTheme" />
+40-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:25:15-52
+41            <meta-data
+41-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:27:13-29:56
+42                android:name="com.google.firebase.messaging.default_notification_channel_id"
+42-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:28:17-93
+43                android:value="high_importance_value" />
+43-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:29:17-54
+44
+45            <intent-filter>
+45-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:30:13-35:29
+46                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+46-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:31:17-68
+46-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:32:17-75
+48-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:32:27-73
+49
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:33:17-68
+50-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:33:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:34:17-76
+52-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:34:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:39:9-41:33
+60            android:name="flutterEmbedding"
+60-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:40:13-44
+61            android:value="2" />
+61-->D:\SIH\server_app\android\app\src\main\AndroidManifest.xml:41:13-30
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\nikun\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+69    </application>
+70
+71</manifest>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "br.com.brasizza.marcus.wifi_info_plugin_plus-merged_res-10:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "br.com.brasizza.marcus.wifi_info_plugin_plus-core-1.6.0-2:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]
