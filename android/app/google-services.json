@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812061436521",
+    "project_id": "attendi-fi",
+    "storage_bucket": "attendi-fi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812061436521:android:83f828b41c3e46c6a450f8",
+        "android_client_info": {
+          "package_name": "com.example.server_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4fxf20PkNIInsnq0pW_Mj3Fvc5NRw1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
