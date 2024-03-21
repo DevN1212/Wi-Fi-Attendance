@@ -105,11 +105,11 @@ class _StudentmainState extends State<Studentmain> {
                       if (user.text.isNotEmpty) {
                         var sharpref = await SharedPreferences.getInstance();
                         String? stdid = sharpref.getString('student_id');
-                        final response = await http.post(Uri.parse('http://devworld159.pythonanywhere.com/mark_attendance'),
+                        final response = await http.post(Uri.parse(''),
                           body: json.encode({
-                            'ip_address': routerIp,
-                            'session_id': user.text,
-                            'roll_number': stdid,
+                            'ip': routerIp,
+                            'ses': user.text,
+                            'r': stdid,
                           }),
                         );
                         if (response.statusCode == 200) {
