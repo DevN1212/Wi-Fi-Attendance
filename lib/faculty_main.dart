@@ -139,11 +139,11 @@ class _FacultymainState extends State<Facultymain> {
                                 print(faculty_id);
                                 print(dateime);
                                 final response = await http.post(
-                                    Uri.parse("http://devworld159.pythonanywhere.com/start_session"),
+                                    Uri.parse(""),
                                     body: json.encode({
                                       'ip_address': routerIp,
-                                      'faculty_id': faculty_id,
-                                      'date_time': dateime
+                                      'faculty': faculty_id,
+                                      'date': dateime
                                     })
                                 );
                                 if (response.statusCode == 200) {
@@ -168,10 +168,10 @@ class _FacultymainState extends State<Facultymain> {
                                 var ssidstored = sharedprf.getString('ssid');
                                 print('====' + ssidstored!);
                                 final response = await http.post(
-                                    Uri.parse("http://devworld159.pythonanywhere.com/stop_session"),
+                                    Uri.parse(""),
                                     body: json.encode({
-                                      'ip_address': routerIp,
-                                      'session_id': ssidstored,
+                                      'iaddress': routerIp,
+                                      'session': ssidstored,
                                     })
                                 );
                                 if (response.statusCode == 200) {
@@ -271,10 +271,10 @@ class _FacultymainState extends State<Facultymain> {
                                 var sessionddetails=sharedprefs.getString('ssid');
                                 if (roll_no.text.isNotEmpty && sessionddetails!="") {
                                   final response = await http.post(
-                                      Uri.parse("http://devworld159.pythonanywhere.com/add_attendance"),
+                                      Uri.parse(""),
                                       body: json.encode({
-                                        'roll_number': roll_no.text,
-                                        'session_id': sessionddetails
+                                        'rnumber': roll_no.text,
+                                        'session': sessionddetails
                                       })
                                   );
                                   if (response.statusCode == 200) {
@@ -337,10 +337,10 @@ class _FacultymainState extends State<Facultymain> {
                                 var sessionddetails=sharedprefs.getString('ssid');
                                 if (roll_no.text.isNotEmpty && sessionddetails!="") {
                                   final response = await http.post(
-                                      Uri.parse("http://devworld159.pythonanywhere.com/remove_attendance"),
+                                      Uri.parse(""),
                                       body: json.encode({
-                                        'roll_number': roll_no.text,
-                                        'session_id': sessionddetails
+                                        'roll': roll_no.text,
+                                        'sess': sessionddetails
                                       })
                                   );
                                   print("Resuqset sent");
@@ -458,8 +458,8 @@ class _FacultymainState extends State<Facultymain> {
 
                                 try {
                                   final response = await http.post(
-                                    Uri.parse("http://devworld159.pythonanywhere.com/download"),
-                                    body: json.encode({'sessionid': sessionddetails}),
+                                    Uri.parse(""),
+                                    body: json.encode({'id': sessionddetails}),
                                   );
 
                                   if (response != null) {
@@ -488,8 +488,8 @@ class _FacultymainState extends State<Facultymain> {
                                         if (downloadstatus) {
                                           print(fileName);
                                           final sendreq = await http.post(
-                                            Uri.parse("http://devworld159.pythonanywhere.com/delete"),
-                                            body: json.encode({'file': fileName}),
+                                            Uri.parse(""),
+                                            body: json.encode({'f': fileName}),
                                           );
                                           if (sendreq.statusCode == 200) {
                                             print("Deleted");
