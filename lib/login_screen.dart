@@ -194,8 +194,8 @@ class _HomePageState extends State<HomePage> {
                           if (widget.isFaculty == true) {
                             print("Awaiting req sent");
                             final response = await http.post(
-                              Uri.parse("http://devworld159.pythonanywhere.com/loginasfaculty"),
-                              body: json.encode({'user': userid.text, 'pass': pass.text}),
+                              Uri.parse(""),
+                              body: json.encode({'u': userid.text, 'p': pass.text}),
                             );
                             print("Req sent");
                             if (response.statusCode == 200) {
@@ -219,8 +219,8 @@ class _HomePageState extends State<HomePage> {
                             }
                           } else {
                             final response = await http.post(
-                              Uri.parse("http://devworld159.pythonanywhere.com/loginasstudent"),
-                              body: json.encode({'user': userid.text, 'pass': pass.text}),
+                              Uri.parse(""),
+                              body: json.encode({'u': userid.text, 'p': pass.text}),
                             );
                             if (response.statusCode == 200) {
                               print("Inside student status 200");
