@@ -1,4 +1,4 @@
-# server_app
+# Attendance APP
 
 A Wifi-Based Attendance app,made using custom API's.
 
