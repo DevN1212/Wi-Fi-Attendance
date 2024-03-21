@@ -1,6 +1,7 @@
 # server_app
 
-A new Flutter project.
+A Wifi-Based Attendance app,made using custom API's
+In the code I have removed the API's ,but you can see its working from the video on drive
 
 ## Getting Started
 
